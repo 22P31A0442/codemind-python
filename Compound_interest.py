@@ -1,4 +1,3 @@
 a, b, c = map(int, input().split())
-i = (1+(b/100))**c
-ci = a*i
+ci = a * ((1+(b/100))**c)
 print(f"{ci:.2f}")
