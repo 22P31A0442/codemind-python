@@ -1,10 +1,8 @@
 x = int(input())
-q=x
 max=0
-while q != 0:
-    r = q%10
-    if r > max:
-        max = r
-    q = q//10
+while x!=0:
+    r = x%10
+    x=x//10
+    if r>max:
+        max=r
 print(max)
-    
