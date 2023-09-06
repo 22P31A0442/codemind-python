@@ -8,4 +8,3 @@ for i in range(a, b+1):
     if s==2:
         print(i)
     s=0
-        
