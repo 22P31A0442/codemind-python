@@ -1,17 +1,19 @@
 n = int(input())
-s=0
-ss=0
 sq = n**2
-while n!=0:
-    r=n%10
+q=n
+s=0
+f=0
+while q!=0:
+    r=q%10
     s=s*10+r
-    n=n//10
-rs=s**2
-while rs!=0:
-    rr=rs%10
-    ss=ss*10+rr
-    rs=rs//10
-if sq==ss:
+    q=q//10
+sqq = s**2
+x=sqq
+while x!=0:
+    rr=x%10
+    f=f*10+rr
+    x=x//10
+if f==sq:
     print("True")
 else:
     print("False")
