@@ -1,5 +1,7 @@
-a = int(input())
-if a%9==0:
-    print("True")
-else:
-    print("False")
+def sls(n):
+    if n%9==0:
+        return True
+    else:
+        return False
+n = int(input())
+print(sls(n))
