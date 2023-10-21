@@ -1,6 +1,6 @@
+def sls(a,b):
+    x = max(a,b)
+    return x
 a = int(input())
 b = int(input())
-if a>b:
-    print(a)
-else:
-    print(b)
+print(sls(a,b))
