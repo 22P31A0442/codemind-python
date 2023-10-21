@@ -1,5 +1,7 @@
-a = int(input())
-if a%2==0:
-    print("Even")
-else:
-    print("Odd")
+def sls(n):
+    if n%2==0:
+        return "Even"
+    else:
+        return 'Odd'
+n = int(input())
+print(sls(n))
