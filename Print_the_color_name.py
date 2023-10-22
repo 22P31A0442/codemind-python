@@ -1,17 +1,19 @@
-c = input()
-if c == 'V':
-    print("Violet")
-elif c == 'I':
-    print("Indigo")
-elif c == 'B':
-    print("Blue")
-elif c == 'G':
-    print("Green")
-elif c == 'Y':
-    print("Yellow")
-elif c == 'O':
-    print("Orange")
-elif c == 'R':
-    print("Red")
-else:
-    print("-1")
+def sls(n):
+    if n=='V':
+        return 'Violet'
+    elif n=='I':
+        return 'Indigo'
+    elif n=='B':
+        return 'Blue'
+    elif n=='G':
+        return 'Green'
+    elif n=='Y':
+        return 'Yellow'
+    elif n=='O':
+        return 'Orange'
+    elif n=='R':
+        return 'Red'
+    else:
+        return '-1'
+n = input()
+print(sls(n))
