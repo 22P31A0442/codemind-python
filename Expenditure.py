@@ -1,6 +1,6 @@
-a = int(input())
-b = int(input())
-if b*30<=a:
+x = int(input())
+y = int(input())
+if x>=y*30:
     print("YES")
 else:
     print("NO")
