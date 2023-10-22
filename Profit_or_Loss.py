@@ -1,8 +1,10 @@
+def sls(a, b):
+    if a>b:
+        return 'Loss'
+    elif a<b:
+        return 'Profit'
+    else:
+        return 'No Profit and No Loss'
 a = int(input())
 b = int(input())
-if a <b:
-    print("Profit")
-elif a > b:
-    print("Loss")
-else:
-    print("No profit and No loss")
+print(sls(a,b))
