@@ -1,5 +1,9 @@
-a, b, c, d, e = map(int, input().split())
-if a>34 and b>34 and c>34 and d>34 and e>34:
-    print("PASSED")
-else:
+a = list(map(int, input().split()))
+flag=0
+for i in a:
+    if i<=34:
+        flag=1
+if flag==1:
     print("FAILED")
+else:
+    print("PASSED")
