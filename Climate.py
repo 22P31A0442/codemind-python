@@ -1,5 +1,7 @@
+def sls(a):
+    if a>20:
+        return 'HOT'
+    elif a<=20:
+        return 'COLD'
 a = int(input())
-if a>20:
-    print("HOT")
-else:
-    print("COLD")
+print(sls(a))
