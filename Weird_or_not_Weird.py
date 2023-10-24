@@ -1,7 +1,9 @@
+def sls(n):
+    if n%2!=0:
+        return 'weird'
+    elif n%2==0 and n>=6 and n<=20:
+        return 'weird'
+    else:
+        return 'not weird'
 n = int(input())
-if n%2 == 0 and n >= 2 and n<= 5:
-    print("not weird")
-elif n%2 == 0 and n>20:
-    print("not weird")
-else:
-    print("weird")
+print(sls(n))
