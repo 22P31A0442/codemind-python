@@ -1,5 +1,5 @@
-r = int(input())
-p = 2*3.14*r
-a = 3.14*(r ** 2)
-print(f"{a:.2f}")
-print(f"{p:.2f}")
+def sls(n):
+    print(f"{(3.14*n*n):.2f}")
+    print(f"{(2*3.14*n):.2f}")
+n = int(input())
+sls(n)
