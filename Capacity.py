@@ -1,5 +1,4 @@
-t = int(input())
-s = int(input())
+a = int(input())
 b = int(input())
-x = (2*t*s*b*512)//1024
-print(f"{x} KB")
+c = int(input())
+print(f"{a*b*c} KB")
