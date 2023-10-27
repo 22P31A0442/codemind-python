@@ -1,29 +1,16 @@
-a = int(input())
-if a<199:
-    b =a*1.20
-    if b<400:
-        bb=b+100
+def sls(n):
+    if n<=199:
+        u = 1.20
+        s=100
+    elif n>=200 and n<400:
+        u=1.50
+        s=100
+    elif n>=400 and n<600:
+        u=1.80
+        s=n*u*0.15
     else:
-        bb=b+b*15/100
-    print(f"{bb:.2f}")
-elif a >=200 and a<400:
-    b = a*1.50
-    if b<400:
-        bb=b+100
-    else:
-        bb=b+b*15/100
-    print(f"{bb:.2f}")
-elif a >=400 and a<600:
-    b = a*1.80
-    if b<400:
-        bb=b+100
-    else:
-        bb=b+b*15/100
-    print(f"{bb:.2f}")
-else:
-    b = a*2.00
-    if b<=400:
-        bb=b+100
-    else:
-        bb=b+b*15/100
-    print(f"{bb:.2f}")
+        u=2
+        s=n*u*0.15
+    return n*u+s
+n = int(input())
+print(f"{(sls(n)):.2f}")
